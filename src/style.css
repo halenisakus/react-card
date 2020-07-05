@@ -1,0 +1,55 @@
+:root {
+    box-sizing: border-box;
+}
+
+*
+{
+    box-sizing: inherit;
+}
+
+html, body {
+  background-color: #ffeead;
+  margin: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background: tomato;
+  width: 150px;
+  height: 175px;
+  border-radius: 7%;
+  color: white;
+  align-items: flex-end;
+  margin-right: 5px;
+}
+
+.contentName {
+  text-align: center;
+  padding: 5px;
+  font-size: 1em;
+}
+
+
+.card-number {
+  font-size: 1em;
+  margin-top: 10px;
+   text-align: center;
+ 
+}
+
+.date {
+  text-align: center;
+}
+
+.cardholder-name {
+  font-size: 1em;
+  padding-left: 10px;
+  align-self: flex-end;
+   text-align: right;
+   margin-top: 20px;
+}
+
